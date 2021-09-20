@@ -16,7 +16,7 @@ import {
     FileOutlined,
     TeamOutlined,
     UserOutlined,
-    LoadingOutlined, DownloadOutlined, PlusOutlined
+    LoadingOutlined, PlusOutlined
 } from '@ant-design/icons';
 import {openErrorNotification, openSuccessNotification} from "./Notification"; //npm install --save @ant-design/icons@4.6.2, within 'frontend' folder (4.6.2 can be viewed from package.json)
 
