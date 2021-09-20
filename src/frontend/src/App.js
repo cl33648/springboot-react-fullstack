@@ -4,7 +4,7 @@ import {
     Layout,
     Menu,
     Breadcrumb,
-    Table, Spin, Empty, Button, Badge, Tag, Avatar, Popconfirm, Radio
+    Table, Spin, Empty, Button, Badge, Tag, Avatar, Popconfirm, Radio, Divider
 } from 'antd'; //copied from https://ant.design/components/layout/ (sider)
 
 import StudentDrawerForm from "./StudentDrawerForm";
@@ -227,7 +227,17 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{ textAlign: 'center' }}>By Conrad Lee ©2021 Created by Ant UED</Footer>
+            <Footer style={{ textAlign: 'center' }}>
+                By Conrad Lee ©2021 Created by Ant UED
+                <Divider>
+                    <a
+                        rel="noopener noreferrer"
+                        target="_blank" //enables to open a new tab when link is clicked
+                        href="https://www.linkedin.com/in/crdl93">
+                        Click here to view my Linkedin profile
+                    </a>
+                </Divider>
+            </Footer>
         </Layout>
     </Layout>
 }
